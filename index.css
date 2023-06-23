@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+body{
+    background-image:url(./background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.main-container{
+    background-image:linear-gradient(to right,rgba(38, 39, 39, 0.605),pink,rgb(34, 96, 188));
+    position: absolute;
+    top: 0;
+    height: 45px;
+    width: 100%;
+    padding-top: 10px;
+    font-weight:900;
+    /* display: flex; */
+    
+
+}
+.nav .active{
+    text-decoration:dashed;
+    color: rgb(220, 30, 16);
+}
+.nav a{
+    text-decoration: none;
+    padding: 20px;
+    color: aliceblue;
+}
+   
+.search{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-right: 55px;
+    padding-top: 10px;
+    border-radius: 15px;
+   
+  
+}
+.search input{
+    font-weight: 800;
+    border:none;
+    border-bottom: 2px solid rgba(79, 71, 90, 0.873);
+}
+.search button{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 1px;
+    font-weight: 500;
+
+
+}
+.welcome{
+    width: 300px;
+    height: 400px;
+    background-image: linear-gradient(rgb(241, 7, 202),rgb(26, 202, 202));
+    /* background: rgba(28, 28, 25, 0.733); */
+  position: absolute;
+    top: 25%;
+    left:50px;
+    border-radius: 10px;
+    box-shadow:5px 3px 5px 3px rgb(184, 170, 170);
+}
+.content h2{
+    position: relative;
+    left: -10px;
+    color: aliceblue;
+    text-transform: uppercase;
+    text-shadow: 1px 6px 10px rgb(0, 26, 255);
+}
+
+.to-world{
+    text-transform: capitalize;
+    margin-top: 10px;
+    font-size: large;
+    display: block;
+    /* background-image: linear-gradient(rgba(196, 173, 173, 0.874),red); */
+}
+.content{
+    /* background-color: aqua; */
+    position: absolute;
+    top: 20%;
+    left: 35%;
+
+}
+.details{
+    color: aliceblue;
+    position: absolute;
+    top: 50%;
+    height: 50px;
+    width: 300px;
+    justify-content: center;
+    text-align: justify;
+}
+.social-media{
+    position: absolute;
+    left: 40px;
+    bottom:20px ;
+    /* display: inline-block; */
+    letter-spacing: 40px;
+    text-align: center;
+    cursor: pointer;
+
+}
+.login-main{
+    position: absolute;
+    height: 400px;
+    width: 350px;
+    /* display: flex; */
+    right: 25px;
+    bottom: 160px;
+    border-radius: 10px;
+    box-shadow: 1px 12px 9px 5px rgb(133, 172, 228);
+    background-image: linear-gradient(to left,rgba(59, 57, 55, 0.642),rgba(13, 15, 13, 0.884),rgba(79, 67, 58, 0.495));
+
+}
+.login-container{
+    padding: 15%;
+    text-align: center;
+
+}
+.login-container h3{
+    text-shadow: 1px 3px 25px rgb(168, 65, 5);
+    font-size: xx-large;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    background-image:linear-gradient(to right,rgba(21, 21, 21, 0.521), rgba(21, 21, 23, 0.74))
+}
+.login-container input{
+    background-color: rgba(14, 2, 21, 0.76);
+    border: none;
+    /* background: transparent ; */
+    padding: 15px;
+    color: #fff;
+    width: 100%;
+    border-bottom: 3px solid rgb(91, 97, 118);
+}
+.login-container label{
+    font-size: larger;
+    color:#fff;
+}
+.login-container .fa-solid {
+    width: 30px;
+    height: 30px;
+    background-color:rgba(236, 242, 242, 0.274);
+    position: absolute;
+    color: #fff;
+    bottom: 54%;
+    padding: 7px;
+    right: 54px;
+    z-index: 2;
+    
+
+}
+.login-container button{
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    color: rgb(253, 105, 0);
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.login-container a{
+    color: lightseagreen;
+    position: absolute;
+    left: 55px;
+    bottom: 20px;
+    
+}
+.login-container .signup-down{
+    position: absolute;
+    bottom: 20px;
+    right: -140px;
+    text-align: center;
+}
+
+.login-container img {
+    position: absolute;
+    top: -5%;
+    left: 41%;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;background:white;
+    color: #f5290aa9;
+}
+.lock .fa-solid{
+    position: absolute;
+    /* top: 0; */
+    right: 16%;
+    bottom: 32%;
+}
